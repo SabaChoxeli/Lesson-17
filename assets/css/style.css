@@ -1,0 +1,54 @@
+body {
+  background-color: aqua;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
+
+/* .js-image {
+  display: none;
+} */
+
+#characters-list {
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.character-card {
+  background-color: white;
+  width: 400px;
+  height: 140px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.character-card img {
+  width: 80px;
+  height: 110px;
+  margin-right: 20px;
+}
+
+.character-info {
+  margin-left: 20px;
+}
+
+.character-info p:first-child {
+  font-weight: bold;
+}
